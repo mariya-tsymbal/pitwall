@@ -1,0 +1,10 @@
+{
+  "name": "pitwall",
+  "private": true,
+  "scripts": {
+    "dev": "docker compose up --build",
+    "dev:api": "npm run dev --prefix api",
+    "dev:web": "npm run dev --prefix web",
+    "install:all": "npm install --prefix api && npm install --prefix web"
+  }
+}
